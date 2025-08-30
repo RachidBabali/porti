@@ -130,6 +130,7 @@ img {
 }
 .mini_conteneur{
     flex-direction: column;
+    height: auto;
 }
 .boitedeux{
     width: 100%;
