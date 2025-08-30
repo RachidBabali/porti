@@ -131,4 +131,10 @@ img {
 .mini_conteneur{
     flex-direction: column;
 }
+.boitedeux{
+    width: 100%;
+}
+.boiteun{
+    width: 100%;
+}
 }
