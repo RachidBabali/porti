@@ -1,0 +1,134 @@
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, yellow 33%, white 33% 66%, red 66%);
+}
+
+.conteneur {
+    width: 90%;
+    height: 90%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.267);
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    /* border: 1px solid black; */
+}
+
+header ul {
+    margin-left: 43%;
+}
+
+header h1 {
+    margin-left: 3%;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    
+}
+
+.mini_conteneur {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.boiteun {
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid black; */
+}
+
+.traits {
+    width: 15%;
+    border: 2px solid red;
+    margin-left: 10%;
+}
+
+button {
+    background-color: orangered;
+    padding: 2%;
+    border-radius: 8%;
+    color: white;
+    border: none;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.boiteun h4 {
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.boiteun h3 {
+    margin-left: 10%;
+    font-size: 1rem;
+}
+
+.boiteun h1 {
+    margin-left: 10%;
+    font-size: 2rem;
+}
+
+.boiteun p {
+    margin-left: 10%;
+    color: rgb(96, 108, 119);
+}
+
+.cercle {
+    border: 10px solid red;
+    margin-top: 15%;
+    height: 73%;
+    width: 95%;
+    border-radius: 40% 0% 0% 40% / 62% 58% 42% 62%;
+    border-right: 10px solid white;
+}
+
+.boitedeux {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: end;
+}
+
+.mini_cercle {
+    height: 85%;
+    width: 65%;
+    border: 10px solid black;
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 48% 45% 2% 48% / 53% 49% 51% 47%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 48% 45% 2% 48% / 53% 49% 51% 47%;
+}
+ .bar_nav{
+    display: none; 
+    left: 50%;
+    top: 20%;
+}
+@media screen and (max-width:900px){
+    ul a{
+        display: none;
+    } 
+    .bar_nav{
+    
+    display: block;
+}
+body{
+    flex-direction: column;
+}
+}
