@@ -128,7 +128,7 @@ img {
     
     display: block;
 }
-body{
+.mini_conteneur{
     flex-direction: column;
 }
 }
